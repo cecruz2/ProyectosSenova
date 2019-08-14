@@ -19,9 +19,9 @@ namespace ProyectosSenova
             Proyecto miProyecto = new Proyecto();
             miProyecto.IngresarProyecto();
             List<Proyecto> proyectos = new List<Proyecto>();
-            //Console.WriteLine("digite la cantidad de digitos para el codigo");
-            //var x = int.Parse(Console.ReadLine());
-            //miProyecto.ObtenerMayores(x);
+            Console.WriteLine("digite la cantidad de digitos para el codigo");
+            var x = int.Parse(Console.ReadLine());
+            miProyecto.ObtenerMayores(x);
             //Proyecto miProyecto2 = new Proyecto();
             //Proyecto miProyecto3 = new Proyecto();
             //Proyecto miProyecto4 = new Proyecto("Realidad aumentada",12540,"sistemas",10);
