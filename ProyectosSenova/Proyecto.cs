@@ -40,14 +40,14 @@ namespace ProyectosSenova
         #endregion
 
         #region Metodos          
-        public void ObtenerMayores(int x)
+        public void ObtenerMayores()
         {
             
             List<Proyecto> pro20 = new List<Proyecto>();
             foreach (var item in proyectos)
             {
-                
-                if (item.Codigo>x)
+                Double mod = item.Codigo % 2;
+                if ((item.Codigo>20)&&(mod==0))
                 {
                     pro20.Add(item);
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+
 //obtener todos los proyectos cuyo codigo sea mayor a 20 y sea par
 //ordenar los proyectos acedentemente por duracion 
 //seleccionar el primesr proyecto que sea multiplo de 6
@@ -19,9 +20,9 @@ namespace ProyectosSenova
             Proyecto miProyecto = new Proyecto();
             miProyecto.IngresarProyecto();
             List<Proyecto> proyectos = new List<Proyecto>();
-            Console.WriteLine("digite la cantidad de digitos para el codigo");
-            var x = int.Parse(Console.ReadLine());
-            miProyecto.ObtenerMayores(x);
+            ////Console.WriteLine("digite la ??????????????????");
+            //var x = int.Parse(Console.ReadLine());
+            miProyecto.ObtenerMayores();
             //Proyecto miProyecto2 = new Proyecto();
             //Proyecto miProyecto3 = new Proyecto();
             //Proyecto miProyecto4 = new Proyecto("Realidad aumentada",12540,"sistemas",10);
