@@ -39,14 +39,26 @@ namespace ProyectosSenova
         }
         #endregion
 
-        #region Metodos          
+        #region Metodos 
+        
+        public void ordenar()
+        {
+            //IngresarProyecto();
+            //List<Proyecto> pro1 = new List<Proyecto>();
+           
+            //double elenentos = pro1.Count;
+            //int i, j;
+            //int lista[] = Duracion;
+            //int tempo = 0;
+            //ImprimirProyecto(pro1);
+        }
         public void ObtenerMayores()
         {
             
             List<Proyecto> pro20 = new List<Proyecto>();
             foreach (var item in proyectos)
             {
-                Double mod = item.Codigo % 2;
+                Double mod = item.Codigo % 6;
                 if ((item.Codigo>20)&&(mod==0))
                 {
                     pro20.Add(item);
